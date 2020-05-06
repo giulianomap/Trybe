@@ -1,1 +1,1 @@
-HTML challengers from HTML & CSS - Estruturas de página class (Trybe Course)
+Trybe Course activities
