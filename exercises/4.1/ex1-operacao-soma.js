@@ -1,3 +1,9 @@
-let a = 4;
-let b = 7;
-console.log(a + b);
+let a = 5;
+let b = 8;
+
+function soma(a, b) {
+  return a + b;
+}
+
+console.log(soma (a, b));
+
