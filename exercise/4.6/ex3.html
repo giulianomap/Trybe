@@ -63,7 +63,21 @@
       titulo.innerHTML = "Exercício 4.6 - JavaScript DOM"
       
       document.body.appendChild(titulo);
+
+      /* Exercício 2 */
+
+      let div1 = document.createElement("div");
+      div1.className = "main-content"
       
+      document.body.appendChild(div1);
+
+      /* Exercício 3 */
+
+      let div2 = document.createElement("div");
+      div2.className = "center-content"
+      
+      document.querySelector(".main-content").appendChild(div2);
+
     </script>
   </body>
 </html>
