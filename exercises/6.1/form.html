@@ -4,45 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <title>Cadastro de currículo</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
   <h1>Cadastro de currículo</h1><br>
   <form action="" method="GET">
     <fieldset>
       <legend>Dados Pessoais</legend><br>
-      <label>Nome:</label>
-      <input 
+      <label for="nome">Nome:</label>
+      <input
+        id="nome"
         required="required" 
         type="text" 
         maxlength="40" 
         placeholder="insira seu nome"/><br><br>
-      <label>E-mail:</label>
-        <input 
+      <label for="email">E-mail:</label>
+        <input
         required="required" 
+        id="email"
         type="email" 
         maxlength="50" 
         placeholder="insira seu e-mail"/><br><br>
-      <label>CPF:</label>
+      <label for="cpf">CPF:</label>
         <input 
         required="required" 
+        id="cpf"
         type="text" 
         maxlength="11" 
         placeholder="insira seu CPF"/><br><br>
-      <label>Endereço</label>
+      <label for="endereço">Endereço</label>
         <input 
         required="required" 
+        id="endereço"
         type="text" 
         maxlength="11" 
         placeholder="insira seu endereço"/><br><br>
-      <label>Cidade:</label>
+      <label for="cidade">Cidade:</label>
         <input 
         required="required" 
+        id="cidade"
         type="text" 
         maxlength="28" 
         placeholder="cidade"/><br><br>
       <label>Estado:</label>
       <select id="estado"></select><br><br>
+      <label for="casa">Casa</label>
+        <input
+          required="required"
+          name="tipo"
+          value="casa"           
+          id="casa"
+          type="radio"/>
+      <label for="apartamento">Apartamento</label>
+        <input 
+          required="required"
+          name="tipo"
+          value="apartamento"
+          id="apartamento"
+          type="radio"/>
     </fieldset>
   </form>
   <script src="script.js"></script> 
