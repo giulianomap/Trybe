@@ -6,11 +6,44 @@
   <title>Cadastro de currículo</title>
 </head>
 <body>
-  <h1>Seu currículo</h1><br>
+  <h1>Cadastro de currículo</h1><br>
   <form action="" method="GET">
-    <label>
-      Nome: <input type="text" maxlength="40" placeholder="insira seu nome">
-    </label>
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <label>Nome:</label>
+      <input 
+        required="required" 
+        type="text" 
+        maxlength="40" 
+        placeholder="insira seu nome"/>
+      <label>E-mail:</label>
+        <input 
+        required="required" 
+        type="email" 
+        maxlength="50" 
+        placeholder="insira seu e-mail"/>
+      <label>CPF:</label>
+        <input 
+        required="required" 
+        type="text" 
+        maxlength="11" 
+        placeholder="insira seu CPF"/>
+      <label>Endereço</label>
+        <input 
+        required="required" 
+        type="text" 
+        maxlength="11" 
+        placeholder="insira seu endereço"/>
+      <label>Cidade:</label>
+        <input 
+        required="required" 
+        type="text" 
+        maxlength="28" 
+        placeholder="cidade"/>
+      <label>Estado:</label>
+      <select id="estado"></select>
+    </fieldset>
   </form>
+  <script src="script.js"></script> 
 </body>
 </html>
