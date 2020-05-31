@@ -1,3 +1,27 @@
+* {
+  margin: 10px;
+  
+  box-sizing: border-box;
+}
+
 body {
+  background-color: rgb(243, 245, 247);
+  color: rgb(56, 51, 45);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-row input[type='text'] {
+  background-color: white;
+  border: 1px solid rgb(131, 133, 134);
+  border-radius: 5px;
+  width: 500px;
+  padding: 8px;
+}
+
+.form-row input[type='email'] {
+  background-color: white;
+  border: 1px solid rgb(131, 133, 134);
+  border-radius: 5px;
+  width: 500px;
+  padding: 8px;
 }
