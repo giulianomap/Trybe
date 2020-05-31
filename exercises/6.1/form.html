@@ -63,6 +63,32 @@
           id="apartamento"
           type="radio"/>
     </fieldset>
+    <br><br>
+    <fieldset>
+      <legend>Dados sobre o último emprego</legend>
+      <label for="resumo">Resumo do currículo:</label>
+      <textarea id="resumo" name="resumo" maxlength="1000" required="required"></textarea><br><br>
+      <label for="cargo">Cargo:</label>
+      <input
+        required="required" 
+        id="cargo" 
+        name="cargo"
+        type="text" 
+        maxlength="40"/><br><br>
+      <label for="descricao">Descrição do cargo:</label>
+      <input 
+        required="required"
+        id="descricao" 
+        name="descricao"
+        type="text" 
+        maxlength="500"/><br><br>
+      <label for="dataInicio">Data de início:</label>   
+        <input
+          required="required"  
+          id="dataInicio"
+          name="dataInicio" 
+          type="date"><br><br>
+    </fieldset>
   </form>
   <script src="script.js"></script> 
 </body>
