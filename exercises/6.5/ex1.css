@@ -1,26 +1,21 @@
 body {
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 20px;
 }
 
-@media only screen and (max-width: 360px) {
-  .info {
-    font-size: 12px;
-  }
+h1 {
+  font-size: 1.5em;
+}
 
-  h1 {
-    font-size: 15px;
-  }
+h2 {
 
-  h2 {
-  }
+}
 
-  img {
-    max-width: 100%;
-    padding: 8px 0px;
-  }
+img {
+	max-width: 100%;
+}
 
-  figure {
-    margin: 0;
-  }
+figure {
+  padding: 15px 0px;
+	margin: 0;
 }
