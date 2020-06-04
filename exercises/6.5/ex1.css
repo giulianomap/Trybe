@@ -20,7 +20,9 @@ figure {
 	margin: 0;
 }
 
-@media only screen and (min-width: 800px) {
+/*
+@media only screen and (max-width: 800px) {
+  
   body {
     background-color: lightblue;
     font-size: 1.5em;
@@ -34,9 +36,27 @@ figure {
     justify-content: space-around;
   }
 
-  div.pictures figure {
-    margin-bottom: 30px;
-    /* border: 1px solid black; */
+  figure {
+    width: 50%;
+  }
+}
+*/
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  body {
+    background-color: rgb(67, 70, 71);
+    font-size: 1.8em;
+    margin: 100px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .pictures {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   figure {
