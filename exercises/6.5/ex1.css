@@ -19,3 +19,27 @@ figure {
   padding: 15px 0px;
 	margin: 0;
 }
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: lightblue;
+    font-size: 1.5em;
+    margin: 50px;
+  }
+
+  .pictures {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  div.pictures figure {
+    margin-bottom: 30px;
+    /* border: 1px solid black; */
+  }
+
+  figure {
+    width: 50%;
+  }
+}
