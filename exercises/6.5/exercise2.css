@@ -2,20 +2,26 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+.container {
+  margin: 0;
+  padding: 20px;
+}
+
+header p {
+  font-size: 2em;
+  text-align: center;
+  margin: 30px 0px;  
+}
 
 @media only screen and (max-width: 360px) {
   .container {
-    background-color: lightslategray;    
-  }
-
-  header p {
-    font-size: 2em;
-    text-align: center;
-    padding-top: 20px;
+    background-color: lightslategray;
+    color: white;    
   }
   
   header ul {
@@ -59,6 +65,79 @@ html {
     font-size: 15px;
     margin: 0;
     padding: 15px;
+  } 
+}
+
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+  .container {
+    background-color: thistle;
+    color: rgb(22, 4, 22);
+    font-size: 22px;
   }
- 
+
+  header p {
+    font-size: 2em;
+    text-align: center;  
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0px 20px;
+    font-size: 20px; 
+  }
+
+  header li {
+    padding: 20px;
+  }
+
+  .aside-one {
+    margin: 10px;
+    padding: 0px 0px 10px 10px;
+  }
+
+  .aside-two {
+    margin: 10px;
+    padding: 0px 0px 10px 10px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) {
+  .container {
+    background-color: rgb(127, 202, 134);
+    color: rgb(4, 39, 7);
+    font-size: 22px;
+  }
+
+  header p {
+    font-size: 3em;
+    text-align: center;  
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0px 20px;
+    font-size: 20px; 
+  }
+
+  header li {
+    padding: 20px;
+  }
+
+  .aside-one {
+    margin: 10px;
+    padding: 0px 0px 10px 10px;
+  }
+
+  .aside-two {
+    margin: 10px;
+    padding: 0px 0px 10px 10px;
+  }
 }
